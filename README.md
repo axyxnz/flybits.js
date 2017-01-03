@@ -1,6 +1,6 @@
 ![alt tag](http://flybits.com/images/logo_flybitscorporate_RGB.png)
 # Flybits.js
-Flybits.js is an isomorphic JavaScript SDK that can be used to build [Flybits](http://flybits.com) enabled applications on both the client and server side.  That is to say, Flybits.js has been designed for creating mobile web applications, specifically [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/), and also Flybits enabled microservces known as Moments.
+Flybits.js is an isomorphic JavaScript SDK that can be used to build [Flybits](http://flybits.com) enabled applications on both the client and server side.  That is to say, Flybits.js has been designed for creating mobile web applications, specifically [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/), and also Flybits enabled microservices known as Moments.
 
 ## Table of Contents
 1. [Compatibility](#compatibility)
@@ -80,7 +80,7 @@ Node:
     In a browser environment, initialization with this function is asynchronous and will return a `Promise`:
     ```javascript
     Flybits.init('//resource.source.com/config.json').then(function(cfg){
-      /** cfg is the initialized state of the SDK configuration.  
+      /** cfg is the initialized state of the SDK configuration.
           It is not required to be used, it is only returned for your convenience.*/
 
       // start working with SDK
